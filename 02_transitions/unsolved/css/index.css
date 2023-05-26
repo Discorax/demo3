@@ -20,10 +20,29 @@
   text-align: center;
   height: 50px;
   /* Add the css property transition here! */
+  transition: all 0.5s ease;
 
 }
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
+  background-color:blue;
+  transform: scale(1.5) rotate(360deg);
+  
 
+
+}
+
+.shrinkMe {
+  width:50px;
+  height:50px;
+  background-color:red;
+  transition: all 0.5s;
+}
+
+.shrinkMe:hover {
+  
+  filter: drop-shadow(5px 5px 4px #4444dd);
+  transform: rotate(45deg) scale(3);
+  
 }
