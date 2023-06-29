@@ -1,0 +1,63 @@
+/* Reset default margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for the classified section */
+  .classifieds {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+  .classifieds p,blockquote {
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+    
+  }
+
+  blockquote {
+      color:#999;
+      font-style:italic;
+      padding-bottom:20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .postings {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .posting {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .posting img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .posting h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .posting p {
+    text-align:left;
+    padding:0;
+    font-size: 14px;
+    color: #555555;
+  }
+  
